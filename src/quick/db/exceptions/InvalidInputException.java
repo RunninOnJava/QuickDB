@@ -1,12 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package quick.db.exceptions;
 
 /**
- *
+ * Exception is thrown if incorrect parameters are 
+ * passed to QuickDBConnect.getConnection()
+ * 
  * @author JordanF
  */
 public class InvalidInputException extends Exception {
